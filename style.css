@@ -144,3 +144,54 @@ footer{
     color: aliceblue;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+
+/* Media queries */
+
+@media (max-width: 600px) {
+
+    .container{
+    
+        grid-template-columns: 250px;
+        grid-template-rows: 195px 408px;
+        
+    }
+
+    .ctn1{
+    
+        padding: 17px 23px;
+        text-align: center;
+        grid-row: 2/3;
+    
+    }
+
+    h1{
+    
+        font-size: 1.3em;
+        letter-spacing: 0.015em;
+    
+    }
+
+    p{
+    
+        padding: 0;
+        font-size: 0.715em;
+        margin-bottom: 25px;
+        
+    }
+
+    li {
+
+        display: block;
+        margin: 0;
+        font-size: 0.590em;
+        margin-bottom: 20px;
+        
+    }
+
+    .nb1, .nb2, .nb3{
+
+        font-size: 1.940em; 
+    }
+
+}
